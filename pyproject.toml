@@ -10,6 +10,7 @@ python = "^3.11"
 requests = "^2.32.3"
 elasticsearch = "^8.14.0"
 tiktoken = "^0.7.0"
+openai = "^1.35.9"
 
 
 [build-system]

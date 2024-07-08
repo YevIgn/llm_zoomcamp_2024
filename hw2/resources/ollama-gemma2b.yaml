@@ -1,0 +1,7 @@
+version: "3.9"
+name: llm_zoomcamp_hw2_ollama_gemma2b
+services:
+  ollama-gemma2b:
+    image: "ollama-gemma2b"
+    ports:
+      - "11434:11434"

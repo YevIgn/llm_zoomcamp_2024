@@ -1,0 +1,11 @@
+version: "3.9"
+name: llm_zoomcamp_hw2
+services:
+  ollama:
+    image: "ollama/ollama"
+    ports:
+      - "11434:11434"
+    volumes:
+      - type: bind
+        source: C:/Users/Evgenii/Projects/llm_zoomcamp/hw2/ollama_files
+        target: /root/.ollama
