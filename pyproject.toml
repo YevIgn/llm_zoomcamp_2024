@@ -11,6 +11,9 @@ requests = "^2.32.3"
 elasticsearch = "^8.14.0"
 tiktoken = "^0.7.0"
 openai = "^1.35.9"
+sentence-transformers = "^3.0.1"
+numpy = "<2.0.0"
+pandas = "^2.2.2"
 
 
 [build-system]
